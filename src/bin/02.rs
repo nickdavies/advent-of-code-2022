@@ -3,7 +3,7 @@ advent_of_code::solution!(2);
 use advent_of_code::template::RunType;
 
 use anyhow::{anyhow, Context};
-use aoc_lib::parse::*;
+use aoc_lib::parse::preamble::*;
 
 #[derive(Debug)]
 enum Outcome {
