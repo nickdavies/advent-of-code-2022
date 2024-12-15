@@ -5,6 +5,7 @@ use advent_of_code::template::RunType;
 use anyhow::{Context, Result};
 use aoc_lib::parse::preamble::*;
 
+#[allow(clippy::comparison_chain)]
 fn sort_pairs(a: (u32, u32), b: (u32, u32)) -> ((u32, u32), (u32, u32)) {
     if a.0 == b.0 {
         if a.1 >= b.1 {
