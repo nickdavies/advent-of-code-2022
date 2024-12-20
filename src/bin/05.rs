@@ -1,10 +1,8 @@
-#![allow(unused_imports)]
 advent_of_code::solution!(5);
 
 use advent_of_code::template::RunType;
 
 use anyhow::{anyhow, Context, Result};
-use std::collections::{BTreeMap, BTreeSet};
 
 #[derive(Debug)]
 struct Command {
